@@ -1,13 +1,13 @@
 #include <iostream>
 
 int main (void){
-  bool try_me = false;
+  long try_me = 546;
   std::cout << "try_me value: ";
   std::cout << try_me;
   std::cout << "\n";
 
-  try_me = true;
-  std::cout << "try_me value: ";
+  try_me = try_me * 3000;
+  std::cout << "try_me * 3000 value: ";
   std::cout << try_me;
   std::cout << "\n";
 

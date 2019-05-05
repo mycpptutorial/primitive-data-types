@@ -13,5 +13,5 @@ int main (void){
 
   std::cout << "The size of try_me is ";
   std::cout << sizeof try_me;
-  std::cout << "\n";
+  std::cout << " byte(s)\n";
 }
